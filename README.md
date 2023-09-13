@@ -14,18 +14,17 @@ Recognition](https://arxiv.org/abs/2308.16018)
 |  [InfoGCN](https://github.com/stnoah1/infogcn)   |    1.5M    | 1.7G  |   96.7   |
 |                      Ta-MLP                      |    0.6M    | 0.7G  |   96.8   |
 
-![result](https://github.com/BUPTSJZhang/Ta-MLP/resource/result.jpg)
+![result](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/result.jpg)
 
 Comparsion of performance and parameter size on X-sub benchmark of NTU RGB+D 60 dataset. We report the accuracy as performance on the vertical axis. The closer to the top-left, the better.
 
 ## Ta-MLP architecture
 
-![architecture](https://github.com/BUPTSJZhang/Ta-MLP/resource/architecture.jpg)
+![architecture](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/architecture.jpg)
 
-![framewrok](https://github.com/BUPTSJZhang/Ta-MLP/resource/framework.jpg)
+![framewrok](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/framework.jpg)
 
-![fc](https://github.com/BUPTSJZhang/Ta-MLP/resource/fc.jpg)
+![fc](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/fc.jpg)
 
 ## Preparation
-
--[] We will release our code soon!
+- [ ] We will release our code soon!
