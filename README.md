@@ -15,17 +15,17 @@ Graph convolution networks (GCNs) have achieved remarkable performance in skelet
 |  [InfoGCN](https://github.com/stnoah1/infogcn)   |    1.5M    | 1.7G  |   96.7   |
 |                     SiT-MLP                      |    0.6M    | 0.7G  |   96.8   |
 
-![result](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/result.jpg)
+![result](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/result.png)
 
 Comparsion of performance and parameter size on X-sub benchmark of NTU RGB+D 60 dataset. We report the accuracy as performance on the vertical axis. The closer to the top-left, the better.
 
-## Ta-MLP architecture
+## SiT-MLP architecture
 
-![architecture](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/architecture.jpg)
+![architecture](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/architecture.png)
 
-![framewrok](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/framework.jpg)
+![framewrok](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/framework.png)
 
-![fc](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/fc.jpg)
+![fc](https://github.com/BUPTSJZhang/Ta-MLP/blob/main/resource/fc.png)
 
 ## Preparation
 - [ ] We will release our code soon!
