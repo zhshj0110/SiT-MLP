@@ -30,8 +30,8 @@ Comparsion of performance and parameter size on X-sub benchmark of NTU RGB+D 60 
 
 
 # Prerequisites
-You can install all dependencies by running pip install -r requirements.txt
-Then, you need to install torchlight by running pip install -e torchlight
+You can install all dependencies by running ```pip install -r requirements.txt```  <br />
+Then, you need to install torchlight by running ```pip install -e torchlight```  <br />
 
 # Data Preparation
 ### Download datasets.
