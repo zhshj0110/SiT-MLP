@@ -95,13 +95,13 @@ Put downloaded data into the following directory structure:
 - To train model on NTU60/120
 
 ```
-# Example: training GAP on NTU RGB+D cross subject joint modality
+# Example: training SiT-MLP on NTU RGB+D cross subject joint modality
 CUDA_VISIBLE_DEVICES=0,1 python main.py --config config/nturgbd-cross-subject/mlp_joint.yaml 
-# Example: training GAP on NTU RGB+D cross subject bone modality
+# Example: training SiT-MLP on NTU RGB+D cross subject bone modality
 CUDA_VISIBLE_DEVICES=0,1 python main.py --config config/nturgbd-cross-subject/mlp_bone.yaml 
-# Example: training GAP on NTU RGB+D 120 cross subject joint modality
+# Example: training SiT-MLP on NTU RGB+D 120 cross subject joint modality
 CUDA_VISIBLE_DEVICES=0,1 python main.py --config config/nturgbd120-cross-subject/mlp_joint.yaml 
-# Example: training GAP on NTU RGB+D 120 cross subject bone modality
+# Example: training SiT-MLP on NTU RGB+D 120 cross subject bone modality
 CUDA_VISIBLE_DEVICES=0,1 python main.py --config config/nturgbd120-cross-subject/mlp_bone.yaml 
 ```
 
@@ -118,12 +118,12 @@ CUDA_VISIBLE_DEVICES=0,1 python main.py --config config/ucla/mlp_joint.yaml
 - To test the trained models saved in <work_dir>, run the following command:
 
 ```
-python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt --device 0
+python main.py --config <work_dir>/config.yaml --work-dir <work_dir> --phase test --save-score True --weights <work_dir>/xxx.pt
 ```
 
 - To ensemble the results of different modalities, run 
 ```
-# Example: ensemble four modalities of GAP on NTU RGB+D 120 cross subject
+# Example: ensemble four modalities of SiT-MLP on NTU RGB+D 120 cross subject
 python ensemble.py --datasets ntu120/xsub --position_ckpts work_dir/ntu120/xsub/mlp/joint work_dir/ntu120/xsub/mlp/bone --motion_ckpts work_dir/ntu120/xsub/mlp/joint_vel work_dir/ntu120/xsub/mlp/bone_vel
 ```
 
