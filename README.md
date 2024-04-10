@@ -135,9 +135,10 @@ This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN). The data
 Please cite this work if you find it useful:
 ```BibTex
 @article{zhang2023sitmlp,
-      title={SiT-MLP: A Simple MLP with Point-wise Topology Feature Learning for Skeleton-based Action Recognition}, 
-      author={Shaojie Zhang and Jianqin Yin and Yonghao Dang and Jiajun Fu},
-      year={2023},
-      journal={arXiv preprint arXiv:2308.16018},
+    author={Zhang, Shaojie and Yin, Jianqin and Dang, Yonghao and Fu, Jiajun},
+    journal={IEEE Transactions on Circuits and Systems for Video Technology}, 
+    title={SiT-MLP: A Simple MLP with Point-wise Topology Feature Learning for Skeleton-based Action Recognition}, 
+    year={2024},
+    doi={10.1109/TCSVT.2024.3386553}
 }
 ```
